@@ -46,7 +46,9 @@
 - Arduino Uno/Nano
 - Buzzer
 - USB Cable
-- Webcam
+- Webcam/default lap cam
+- Led
+  
 
 ### 💻 Software Setup
 
@@ -56,17 +58,17 @@
    cd DDDRS
 2. **Install dependencies**
    ```bash
-    pip install opencv-python geopy geocoder twilio
+   pip install opencv-python geopy geocoder twilio
 
 3.**Upload ddrsuno.ino to your Arduino using the Arduino IDE.**
 
 4. **Configure Credentials in the Python script:**
    ```bash
-     Twilio SID, Auth Token, From Number, and To Number
+   Twilio SID, Auth Token, From Number, and To Number
 
 5. **Run the system**
-      ```bash
-      python dddrs_finalworking.py
+    ```bash
+    python dddrs_finalworking.py
 
 📍 Example Emergency Message
 🚨 Emergency: Eyes not detected for more than 10 seconds
