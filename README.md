@@ -71,8 +71,8 @@
     python dddrs_finalworking.py
 
 📍 Example Emergency Message
-🚨 Emergency: Eyes not detected for more than 10 seconds
-📍 Location: Sree Chitra Thirunal College of Engineering, Trivandrum, Kerala, India
+  -🚨 Emergency: Eyes not detected for more than 10 seconds
+  -📍 Location: Sree Chitra Thirunal College of Engineering, Trivandrum, Kerala, India
 
 📁 **Project Structure**
 
