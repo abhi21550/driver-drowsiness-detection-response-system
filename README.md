@@ -80,3 +80,17 @@
  ┣ 📜dddrs_eye_tracker.py        ← Main Python script
  ┣ 📜ddrsuno.ino                 ← Arduino sketch
  ┗ 📄README.md                   ← Project documentation
+ 
+🚀 **Future Scope**
+Face recognition + fatigue scoring
+
+Integrate GPS sensors directly with Arduino
+
+Cloud dashboard with alert logs
+
+Mobile companion app
+
+📄 **License**
+This project is licensed under the MIT License.
+Feel free to fork and modify!
+
