@@ -60,7 +60,7 @@
    ```bash
    pip install opencv-python geopy geocoder twilio
 
-3.**Upload ddrsuno.ino to your Arduino using the Arduino IDE.**
+3. **Upload ddrsuno.ino to your Arduino using the Arduino IDE.**
 
 4. **Configure Credentials in the Python script:**
    ```bash
