@@ -9,7 +9,7 @@
 
 ## 🚨 What is DDDRS?
 
-**Dynamic Disaster Detection and Response System (DDDRS)** is an innovative eye-tracking safety system that detects fatigue or unconsciousness using a webcam, OpenCV, and Arduino. When the system detects closed eyes for extended durations, it:
+**Driver Drowsiness Detection and Response System (DDDRS)** is an innovative eye-tracking safety system that detects fatigue or unconsciousness using a webcam, OpenCV, and Arduino. When the system detects closed eyes for extended durations, it:
 
 - 🚨 Triggers a buzzer via Arduino  
 - 📍 Tracks and fetches real-time location  
@@ -55,16 +55,18 @@
    git clone https://github.com/yourusername/DDDRS.git
    cd DDDRS
 2. **Install dependencies**
+   ```bash
     pip install opencv-python geopy geocoder twilio
 
-3.Upload ddrsuno.ino to your Arduino using the Arduino IDE.
+3.**Upload ddrsuno.ino to your Arduino using the Arduino IDE.**
 
 4. **Configure Credentials in the Python script:**
-
-  Twilio SID, Auth Token, From Number, and To Number
+   ```bash
+     Twilio SID, Auth Token, From Number, and To Number
 
 5. **Run the system**
-   python dddrs_finalworking.py
+      ```bash
+      python dddrs_finalworking.py
 
 📍 Example Emergency Message
 🚨 Emergency: Eyes not detected for more than 10 seconds
